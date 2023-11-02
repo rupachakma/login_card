@@ -1,60 +1,55 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
 }
 body{
-    background-color: rgb(173, 175, 176);
+    background-color: rgb(120, 122, 123);
 }
 form{
-    text-align: center;
-    border: none;
+    margin: 4rem 21rem;
 }
-.card{
-    border-radius: 7px;
-    height: 19rem;
-    background-color: rgb(255, 255, 255);
-    margin: 10% 36%;
-    justify-content: center;
-}
-input{
-    padding: 5px 30px;
-    box-shadow: 55px;
+.main-div{
+    background-color: rgb(252, 252, 252);
+    padding: 28px;
+    border-radius: 5px;
 
 }
-.user-input{
-    padding-top: 30px;
-}
-.email-input{
+input[type=text],[type=password]{
+    width: 100%;
+    margin: 5px 0;
     padding: 10px 15px;
-}
-.btn-login{
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-.btn-log{
-    padding: 6px 30px;
+    box-sizing: border-box;
     border-radius: 5px;
+    border-style: ridge;
+}
+
+.button-login{
+    width: 100%;
+    margin-top: 20px;
     color: white;
-    border: none;
-    background-color: rgba(11, 11, 235, 0.885);
-    cursor: pointer;
+    background-color: rgb(55, 50, 222);
+    font-size: 14px;
+    padding: 8px 14px;
+    border-style: hidden;
+    border-radius: 5px;
+    
 }
 p{
-    color: rgb(0, 76, 255);
-    font-size: 13px;
-    cursor: pointer;
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(47, 47, 163);
 }
-hr{
+.btn{
+    padding: 8px 10px;
+    color: white;
     margin: 10px 30px;
+    display: flex;
+    justify-content: center;
 }
 .btn-account{
-    padding: 5px 20px;
-    color: white;
     background-color: green;
-    border: none;
+    color: white;
     border-radius: 5px;
-    margin-top: 10px;
-    cursor: pointer;
+    border: none;
+    padding: 8px 15px;
 }
