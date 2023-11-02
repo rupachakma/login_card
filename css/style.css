@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(173, 175, 176);
+}
+form{
+    text-align: center;
+    border: none;
+}
+.card{
+    border-radius: 7px;
+    height: 19rem;
+    background-color: rgb(255, 255, 255);
+    margin: 10% 36%;
+    justify-content: center;
+}
+input{
+    padding: 5px 30px;
+    box-shadow: 55px;
+
+}
+.user-input{
+    padding-top: 30px;
+}
+.email-input{
+    padding: 10px 15px;
+}
+.btn-login{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.btn-log{
+    padding: 6px 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgba(11, 11, 235, 0.885);
+    cursor: pointer;
+}
+p{
+    color: rgb(0, 76, 255);
+    font-size: 13px;
+    cursor: pointer;
+}
+hr{
+    margin: 10px 30px;
+}
+.btn-account{
+    padding: 5px 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
